@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule !\.(js|ico|gif|jpg|png|css|zip|gz|html|xml)$ index.php
+RewriteBase /zend
+DirectoryIndex index.php
